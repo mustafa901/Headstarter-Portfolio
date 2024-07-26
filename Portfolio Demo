@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mustafa Al-Bayati's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .contact-info {
+            margin-top: 10px;
+        }
+        .contact-info a {
+            color: #000;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        section {
+            margin: 20px 0;
+        }
+        section h2 {
+            border-bottom: 2px solid #f4b400;
+            padding-bottom: 5px;
+        }
+        .section-content {
+            margin-top: 10px;
+        }
+        .job-title {
+            font-weight: bold;
+            color: #f4b400;
+        }
+        .job-details {
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            border-top: 1px solid #ddd;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+            .container {
+                width: 100%;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Mustafa Al-Bayati</h1>
+        <p>Computer Science, Statistics & Data Science Student</p>
+        <div class="contact-info">
+            <a href="https://github.com/mustafa901">GitHub</a> | 
+            Northfield, MN | 
+            <a href="mailto:albaya1@stolaf.edu">albaya1@stolaf.edu</a> | 
+            (507) 581-7669 | 
+            <a href="https://pages.stolaf.edu/mustafa-al-bayati">Portfolio</a>
+        </div>
+    </header>
+
+    <section>
+        <h2>Education</h2>
+        <div class="section-content">
+            <p>St. Olaf College, Northfield, MN</p>
+            <p>Bachelor of Arts – Computer Science, Statistics & Data Science, Expected Graduation Date: May 2025</p>
+            <p>Relevant Courses: Data Structures in C++, Software Design, Elementary Linear Algebra, Introduction to Data Science, Statistics for Science, Calculus I, Algorithms for Decision Making</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Skills Summary</h2>
+        <div class="section-content">
+            <p><strong>Languages:</strong> Python, C++, C, HTML, R Studio, YAML, Git, Notion, SQL, Assembly</p>
+            <p><strong>Platforms:</strong> Linux, Web, Windows, AWS</p>
+            <p><strong>Soft Skills:</strong> Time Management, Writing, Leadership, Public Speaking, Adobe Illustrator, Blender, ZBrush, WordPress, Microsoft Office</p>
+            <p><strong>Technologies Used:</strong> Machine Learning, Cloud Computing</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Experience</h2>
+        <div class="section-content">
+            <div class="job-details">
+                <div class="job-title">Lead Fleet Analyst Intern</div>
+                <div>GBCS Group, Alberta, Canada | June 2024 – September 2024</div>
+                <p>Led and mentored a team of interns in fleet management operations, ensuring effective collaboration and skill development. Conducted in-depth analyses of fleet performance data to identify trends, optimize usage, and recommend improvements. Developed and implemented fleet management strategies, focusing on sustainability and efficiency. Coordinated cross-functional projects with departments such as logistics, maintenance, and finance to streamline fleet operations. Presented findings and recommendations to senior management, contributing to strategic decision-making processes.</p>
+            </div>
+            <div class="job-details">
+                <div class="job-title">Executive Project Coordinator</div>
+                <div>GBCS Group, Alberta, Canada | June 2024 – September 2024</div>
+                <p>Managed a high-priority project directly under the CEO overseeing all aspects from planning to execution. Collaborated with executive leadership to align project goals with company objectives and ensure successful outcomes. Conducted comprehensive research and analysis to support project initiatives and provide actionable insights. Facilitated communication and coordination between various departments and stakeholders to ensure timely project completion. Prepared detailed reports and presentations for the CEO, highlighting progress, challenges, and strategic recommendations.</p>
+            </div>
+            <div class="job-details">
+                <div class="job-title">Data Analyst Researcher</div>
+                <div>National Math Foundation, Syracuse, NY | May 2023 – July 2024</div>
+                <p>Used RStudio to tidy and visualize around 500 data entries for research, creating regression and correlation graphs. Combined datasets to compare the influence of Kinesthetic teaching methods to Traditional teaching on primary students. Found improvements in test scores after teaching using Kinesthetic methods.</p>
+            </div>
+            <div class="job-details">
+                <div class="job-title">Event Organizer</div>
+                <div>Ole Hack 2023, Northfield, MN | February 2024 – March 2024</div>
+                <p>Organized the Ole Hack 2023 hackathon, coordinating event logistics and participant activities. Facilitated team collaboration and provided resources to participants for innovative project development. Gained experience in event management, teamwork, and rapid problem-solving under time constraints.</p>
+            </div>
+            <div class="job-details">
+                <div class="job-title">Intern</div>
+                <div>Digital Scholarship Center, Northfield, MN | May 2023 – September 2023</div>
+                <p>Built an Artificial Reality Sandbox using Linux, inspired by UC Davis for 3D visualization in Earth Sciences. Designed logos and posters for the workspace and professors using Adobe Illustrator and Adobe Premiere. Built 3D models and designs including a 3D donut and a 3D model of a 1st place trophy.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <div class="section-content">
+            <div class="job-details">
+                <div class="job-title">"Strike" Game Development</div>
+                <div>May 2023 – May 2024</div>
+                <p>Worked on developing a game called "Strike" using Unity and C#. Designed and implemented game mechanics and user interface, animation and walking mechanics. Enhanced problem-solving and teamwork skills through collaborative coding sessions.</p>
+            </div>
+            <div class="job-details">
+                <div class="job-title">Biology Research Project - Lipid Droplet Quantification</div>
+                <div>Northfield, MN | January 2023 – May 2024</div>
+                <p>Conducted research on lipid droplet quantification in biological samples. Used image processing techniques to analyze microscopic images and count lipid droplets. Developed a Python script to automate analysis, improving accuracy and efficiency. Presented findings at a departmental research symposium.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Honors & Awards</h2>
+        <div class="section-content">
+            <p>Volunteered for Orientation project-2022 with the Iraqi National Committee, presenting and managing discussions to help students prepare emotionally and mentally for studying abroad.</p>
+            <p>Volunteered with Mizna as an Analyst and organizer for the Arab film festival in Minneapolis in 2022, organizing some of the projects and helping research data entries for the movies.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Mustafa Al-Bayati. All rights reserved.</p>
+    </footer>
+</div>
+
+</body>
+</html>
